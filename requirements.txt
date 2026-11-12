@@ -1,5 +1,6 @@
+langchain-openai
+langgraph
 streamlit
+httpx
 requests
-beautifulsoup4
-google-generativeai
 python-dotenv
