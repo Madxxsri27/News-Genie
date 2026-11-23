@@ -1,24 +1,24 @@
-# 📰 News-Genie - AI News Summarizer
 
-News-Genie is a Streamlit web app that fetches the latest news and summarizes it using Google Gemini AI.
 
-## ✨ Features
-- Fetches live news from RSS feeds
-- Summarizes news in simple language using Gemini AI
-- Clean and easy to use UI
+NewsGenie ✨
+You ask a question, and it decides - should I check the news? Search the web? Or just answer with the LLM?
 
-## 🛠️ Tech Stack
-- Python
-- Streamlit
-- Google Gemini AI
-- BeautifulSoup4
+Features
+- Routes question to news, web search, or LLM
+- Uses LangGraph, state, memory, tool calls, fallback
+- Clean Streamlit UI
 
-## 🚀 How to Run
+Tech Stack
+- Python, Streamlit, LangGraph, LangChain-OpenAI
+
+How to Run
 1. Clone this repo
-2. Install requirements:
-   pip install -r requirements.txt
-3. Run the app:
-   streamlit run app.py
+2. pip install -r http://requirements.txt
+3. Add keys in .env file
+4. streamlit run http://app.py
 
-## 👩‍💻 Built By
-Madxxsri27
+API Keys
+- OPENAI_API_KEY from http://platform.openai.com
+- NEWS_API_KEY from http://newsapi.org
+- TAVILY_API_KEY from http://tavily.com
+---
