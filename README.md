@@ -1,6 +1,7 @@
 
 
 NewsGenie ✨
+
 You ask a question, and it decides - should I check the news? Search the web? Or just answer with the LLM?
 
 Features
